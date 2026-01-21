@@ -83,7 +83,7 @@ function App() {
         <div className=" w-[95%] tablet:hidden py-4">
           <Carousel />
         </div>
-      </section>
+      </section>*/}
 
       <section className=" w-auto h-100 bg-primary flex flex-col justify-center items-center gap-10 text-white text-center px-4">
         <h2 className="text-4xl font-bold">
@@ -95,7 +95,7 @@ function App() {
         >
           Book Your Table Now
         </Link>
-      </section> */}
+      </section> 
       <Footer />
     </div>
   );
