@@ -12,7 +12,7 @@ function App() {
       <Navbar />
 
       {/* HERO */}
-      {/* <section
+      <section
         className="bg-[linear-gradient(rgba(0,0,0,0.5)),url('/image/Luce_di_Grano_Hero_Image.png')] 
       dark:bg-[linear-gradient(rgba(0,0,0,0.8)),url('/image/Luce_di_Grano_Hero_Image.png')] bg-cover bg-center 
       h-160 flex flex-col justify-center items-center text-white text-center px-4 max-phone:h-auto max-phone:py-10"
