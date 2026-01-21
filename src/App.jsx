@@ -7,12 +7,12 @@ import Carousel from "./components/Carousel.jsx";
 
 function App() {
   return (
-    <div className="m-0 font-display">
+    <div className="font-display">
       {/* NAVBAR */}
       <Navbar />
 
       {/* HERO */}
-      <section
+      {/* <section
         className="bg-[linear-gradient(rgba(0,0,0,0.5)),url('/image/Luce_di_Grano_Hero_Image.png')] 
       dark:bg-[linear-gradient(rgba(0,0,0,0.8)),url('/image/Luce_di_Grano_Hero_Image.png')] bg-cover bg-center 
       h-160 flex flex-col justify-center items-center text-white text-center px-4 max-phone:h-auto max-phone:py-10"
@@ -43,7 +43,7 @@ function App() {
         </div>
       </section>
 
-      {/* ADDITIONAL SECTIONS */}
+      {/* ADDITIONAL SECTIONS *
       <section className="pt-30 pb-10 px-20 flex justify-between items-center dark:bg-background-dark max-phone:flex-col max-phone:gap-10 max-phone:px-4 w-auto">
         <div className="w-[50%] flex flex-col gap-6 dark:text-white max-phone:w-[80%] max-phone:items-center">
           <h2 className="text-4xl font-bold w-140 max-phone:w-auto  leading-12 max-phone:text-3xl desktop:text-5xl desktop:leading-20">
@@ -80,7 +80,7 @@ function App() {
           ))}
         </div>
 
-        {/* CAROUSEL */}
+        {/* CAROUSEL *
         <div className=" w-[95%] tablet:hidden py-4">
           <Carousel />
         </div>
@@ -96,7 +96,7 @@ function App() {
         >
           Book Your Table Now
         </Link>
-      </section>
+      </section> */}
       <Footer />
     </div>
   );
