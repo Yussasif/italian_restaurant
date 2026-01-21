@@ -66,7 +66,7 @@ function App() {
         <div className="flex justify-center w-auto">
           <img src="/image/Dough.png" alt="Dough" className="max-phone:w-[80%] w-autof" />
         </div>
-      </section>
+      </section>*/}
 
       <section className="mt-30 pb-40 px-20 flex flex-col gap-10 items-center dark:bg-background-dark text-black dark:text-white max-phone:px-4">
         <h2 className="text-4xl font-bold w-140  text-center max-phone:text-3xl max-phone:w-auto">
@@ -79,11 +79,11 @@ function App() {
           ))}
         </div>
 
-        {/* CAROUSEL *
+        {/* CAROUSEL */}
         <div className=" w-[95%] tablet:hidden py-4">
           <Carousel />
         </div>
-      </section>*/}
+      </section>
 
       <section className=" w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
         <h2 className="text-4xl max-phone:text-3xl text-center font-bold text-wrap">
