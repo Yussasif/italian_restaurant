@@ -85,8 +85,8 @@ function App() {
         </div>
       </section>*/}
 
-      <section className=" w-auto h-100 bg-primary flex flex-col justify-center items-center gap-10 text-white text-center px-4">
-        <h2 className="text-4xl font-bold">
+      <section className=" w-auto h-100 bg-primary flex flex-col justify-center items-center gap-10 text-white text-center px-2">
+        <h2 className="text-4xl font-bold px-8">
           Ready to Experience Authentic Italian Flavors?
         </h2>
         <Link
