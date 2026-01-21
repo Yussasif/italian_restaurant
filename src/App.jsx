@@ -85,15 +85,15 @@ function App() {
         </div>
       </section>*/}
 
-      <section className=" w-auto h-100 bg-primary flex flex-col justify-center items-center gap-10 text-white text-center px-4">
-        <h2 className="text-4xl font-bold text-wrap">
+      <section className=" w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
+        <h2 className="text-4xl text-center font-bold text-wrap">
           Ready to Experience Authentic Italian Flavors?
         </h2>
         <Link
           to="/reservation"
           className="text-xl font-normal px-6 text-white bg-secondary rounded-lg py-3 hover:scale-110 transition-all ease-in-out duration-300"
         >
-          Book Your Table Now
+          Book Your Table Now.
         </Link>
       </section> 
       <Footer />
