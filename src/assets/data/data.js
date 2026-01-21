@@ -5,7 +5,7 @@ export const dishes = [
         title: "Homemade Lasagna",
         description: "Layers of fresh pasta, rich beef ragu, creamy béchamel, and Parmesan baked to perfection.",
         price: "$22.00",
-        dishImage: "src/assets/image/primi_piatti.png",
+        dishImage: "/image/primi_piatti.png",
         dishUrl: "/menu"
     },
     {
@@ -14,7 +14,7 @@ export const dishes = [
         title: "Osso Buco alla Milanese",
         description: "Slow-braised veal shanks cooked with vegetables, white wine, and broth, served with gremolata.",
         price: "$30.00",
-        dishImage: "/src/assets/image/secondi_piatti.png",
+        dishImage: "/image/secondi_piatti.png",
         dishUrl: "/menu"
     },
     {
@@ -23,7 +23,7 @@ export const dishes = [
         title: "Tiramisu Classico",
         description: "Classic Italian dessert with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa powder.",
         price: "$10.00",
-        dishImage: "src/assets/image/dolci.png",
+        dishImage: "/image/dolci.png",
         dishUrl: "/menu"
     }
   
