@@ -16,7 +16,7 @@ function Carousel() {
   }, [current]);
 
   return (
-    <div className="w-full overflow-hidden relative">
+    <div className=" overflow-hidden relative">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}

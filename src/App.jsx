@@ -80,7 +80,7 @@ function App() {
         </div>
 
         {/* CAROUSEL */}
-        <div className=" w-[95%] tablet:hidden py-4">
+        <div className=" tablet:hidden py-4">
           <Carousel />
         </div>
       </section>
