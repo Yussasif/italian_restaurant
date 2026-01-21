@@ -15,15 +15,14 @@ function App() {
       <section
         className="bg-[linear-gradient(rgba(0,0,0,0.5)),url('/image/Luce_di_Grano_Hero_Image.png')] 
       dark:bg-[linear-gradient(rgba(0,0,0,0.8)),url('/image/Luce_di_Grano_Hero_Image.png')] bg-cover bg-center 
-      h-160 flex flex-col justify-center items-center text-white text-center px-4 max-phone:h-auto max-phone:py-10"
+      h-160 flex flex-col justify-center items-center text-white text-center px-4 max-phone:h-auto max-phone:pb-10 max-phone:pt-40"
       >
         <h1
-          className="font-bold tablet:text-8xl max-phone:text-4xl max-tablet:text-6xl max-phone:w-auto max
-        -phone:leading-15 text-center  max-tablet:w-190 tablet:w-250 tablet:leading-30 leading-20 "
+          className="font-bold tablet:text-8xl max-phone:text-4xl max-tablet:text-6xl max-phone:w-auto max-phone:leading-12 text-center  max-tablet:w-190 tablet:w-250 tablet:leading-30 leading-20 "
         >
           Taste the Tradition, Savor the Moment
         </h1>
-        <p className="text-2xl mt-8 w-190 font-normal leading-10 max-tablet:w-[80%]">
+        <p className="text-2xl max-phone:leading-8 mt-8 w-190 font-normal leading-10 max-tablet:w-[80%]">
           Experience authentic Italian cuisine handcrafted with love and
           generations of family recipes, right here in our cozy trattoria
         </p>
