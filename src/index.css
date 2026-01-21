@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme{
+  --color-primary: #FF5733;
+  --color-secondary: #83C322;
+  --color-primary-dark: #615FFF;
+  --color-secondary-dark: #00BCFF;
+  --color-background-dark: #030712;
+  --color-card-background-dark: #10141E;
+  --font-display: "Poppins", sans-serif;
+  --breakpoint-phone: 640px;
+  --breakpoint-tablet: 1024px;
+  --breakpoint-desktop: 1536px;
+
+
+
+
+  
+  
+  
+  /* @utility no-scrollbar {
+    /* FIREFOX */
+    /* scrollbar-width: none; */
+    /* IE AND EDGE */
+    /* -ms-overflow-style: none; */
+    /* CHROME, SAFARI, AND OPERA */
+    /* &::-webkit-scrollbar {
+      display: none;
+    }
+  /* } */ 
+};
+@custom-variant dark (&:where(.dark, .dark *));
