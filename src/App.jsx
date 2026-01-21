@@ -81,7 +81,7 @@ function App() {
       </section>
 
         {/* CAROUSEL */}
-        <div className="overflow-x-hidden w-[70%] bg-green-300 tablet:hidden py-4 m-auto">
+        <div className="overflow-x-hidden w-[60%] bg-green-300 tablet:hidden py-4 m-auto">
           <Carousel />
         </div>
 
