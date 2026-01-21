@@ -80,12 +80,12 @@ function App() {
         </div>
 
         {/* CAROUSEL */}
-        <div className=" tablet:hidden py-4">
+        <div className="overflow-x-hidden w-[95%] tablet:hidden py-4 ">
           <Carousel />
         </div>
       </section>
 
-      <section className="overflow-hidden w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
+      <section className=" w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
         <h2 className="text-4xl max-phone:text-3xl text-center font-bold text-wrap">
           Ready to Experience Authentic Italian Flavors?
         </h2>
