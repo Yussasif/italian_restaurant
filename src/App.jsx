@@ -68,22 +68,22 @@ function App() {
         </div>
       </section>*/}
 
-      <section className="mt-30 pb-40 px-20 flex flex-col gap-10 items-center dark:bg-background-dark text-black dark:text-white max-phone:px-4">
-        <h2 className="text-4xl font-bold w-140  text-center max-phone:text-3xl max-phone:w-auto">
+      <section className="mt-30 pb-40 px-20 flex flex-col gap-10 items-center dark:bg-background-dark text-black dark:text-white max-phone:px-4 max-tablet:hidden">
+        <h2 className="text-4xl font-bold w-140  text-center max-phone:text-3xl ">
           Our Signature Dishes
         </h2>
 
-        <div className="flex justify-between item-center gap-10 max-tablet:hidden mt-10">
+        <div className="flex justify-between item-center gap-10  mt-10">
           {dishes.map((dish, index) => (
             <DishCard key={index} dish={dish} />
           ))}
         </div>
+      </section>
 
         {/* CAROUSEL */}
-        <div className="overflow-x-hidden w-[95%] tablet:hidden py-4 ">
+        <div className="overflow-x-hidden w-[50%] bg-green-300 tablet:hidden py-4 m-auto">
           <Carousel />
         </div>
-      </section>
 
       <section className=" w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
         <h2 className="text-4xl max-phone:text-3xl text-center font-bold text-wrap">
