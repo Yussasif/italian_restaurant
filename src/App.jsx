@@ -85,8 +85,8 @@ function App() {
         </div>
       </section>*/}
 
-      <section className=" w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
-        <h2 className="text-4xl text-center font-bold text-wrap">
+      {/* <section className=" w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
+        <h2 className="text-4xl max-phone:text-3xl text-center font-bold text-wrap">
           Ready to Experience Authentic Italian Flavors?
         </h2>
         <Link
@@ -95,7 +95,7 @@ function App() {
         >
           Book Your Table Now.
         </Link>
-      </section> 
+      </section>  */}
       <Footer />
     </div>
   );
