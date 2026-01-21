@@ -4,7 +4,7 @@ function DishCard({ dish }) {
   let { name, title, description, price, dishImage, dishUrl } = dish;
 
   return (
-    <div className="flex flex-col gap-4 rounded-2xl w-[30%] shadow-md hover:scale-90 transition-all ease-in-out duration-300 dark:shadow-white/20 bg-white dark:bg-card-background-dark max-tablet:w-[90%]">
+    <div className="flex flex-col gap-4 rounded-2xl w-[30%] shadow-md hover:scale-90 transition-all ease-in-out duration-300 dark:shadow-white/20 bg-white dark:bg-card-background-dark max-tablet:w-[90%] max-tablet:h-150">
       <div className="relative ">
         <img src={dishImage} className="rounded-t-2xl w-full h-auto" alt={name} />
         <p className="font-semibold px-4 py-2  bg-white dark:bg-card-background-dark dark:text-white absolute rounded-xl top-3 left-3">
