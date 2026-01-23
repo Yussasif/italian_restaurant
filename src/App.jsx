@@ -42,7 +42,7 @@ function App() {
         </div>
       </section> */}
 
-      {/* ADDITIONAL SECTIONS *
+      {/* ADDITIONAL SECTIONS */}
       <section className="pt-30 pb-10 px-20 flex justify-between items-center dark:bg-background-dark max-phone:flex-col max-phone:gap-10 max-phone:px-4 w-auto">
         <div className="w-[50%] flex flex-col gap-6 dark:text-white max-phone:w-[80%] max-phone:items-center">
           <h2 className="text-4xl font-bold w-140 max-phone:w-auto  leading-12 max-phone:text-3xl desktop:text-5xl desktop:leading-20">
@@ -66,7 +66,7 @@ function App() {
         <div className="flex justify-center w-auto">
           <img src="/image/Dough.png" alt="Dough" className="max-phone:w-[80%] w-autof" />
         </div>
-      </section>*/}
+      </section>
 
       <section className="mt-30 pb-40 px-20 flex flex-col gap-10 items-center dark:bg-background-dark text-black dark:text-white max-phone:px-4 max-tablet:hidden">
         <h2 className="text-4xl font-bold w-140  text-center max-phone:text-3xl ">
