@@ -22,7 +22,7 @@ function Carousel() {
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {dishes.map((dish, index) => (
-          <div key={index} className="w-full shrink-0 flex justify-center">
+          <div key={index} className="w-full shrink-0 flex justify-center items-center">
             <DishCard dish={dish} />
           </div>
         ))}

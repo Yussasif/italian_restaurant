@@ -13,7 +13,7 @@ function DishCard({ dish }) {
       </div>
       <div className="flex flex-col gap-3 p-6 dark:text-white">
         <h3 className="font-bold text-2xl">{title}</h3>
-        <p className="font-normal text-lg leading-7 w-">{description}</p>
+        <p className="font-normal text-lg leading-7  ">{description}</p>
       </div>
       <div className="flex justify-between items-center p-6 text-primary">
         <p className="text-2xl font-semibold">{price}</p>
