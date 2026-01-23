@@ -82,7 +82,7 @@ function App() {
 
         {/* CAROUSEL */}
        
-          {/* <Carousel /> */}
+          <Carousel />
       
 
       <section className=" w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
