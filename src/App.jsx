@@ -68,7 +68,7 @@ function App() {
         </div>
       </section>*/}
 
-      {/* <section className="mt-30 pb-40 px-20 flex flex-col gap-10 items-center dark:bg-background-dark text-black dark:text-white max-phone:px-4 max-tablet:hidden">
+      <section className="mt-30 pb-40 px-20 flex flex-col gap-10 items-center dark:bg-background-dark text-black dark:text-white max-phone:px-4 max-tablet:hidden">
         <h2 className="text-4xl font-bold w-140  text-center max-phone:text-3xl ">
           Our Signature Dishes
         </h2>
@@ -78,11 +78,11 @@ function App() {
             <DishCard key={index} dish={dish} />
           ))}
         </div>
-      </section> */}
+      </section>
 
         {/* CAROUSEL */}
        
-          <Carousel />
+          {/* <Carousel /> */}
       
 
       <section className=" w-full h-100 bg-primary flex flex-col items-center justify-center gap-10 text-white px-4">
