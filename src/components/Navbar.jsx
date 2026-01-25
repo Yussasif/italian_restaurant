@@ -14,7 +14,7 @@ function Navbar() {
             </div>
             {/* Nav */}
             <div className="dark:text-white flex items-center max-tablet:hidden">
-                <NavLink to={"/home"}  className={`desktop:text-xl font-normal px-6 ${({isActive}) => isActive ? "text-primary" : "text-black"}`}>Home</NavLink>
+                <NavLink to={"/home"} end  className={`${({isActive}) => isActive ? "text-primary" : "text-black"} desktop:text-xl font-normal px-6`}>Home</NavLink>
                 <NavLink to={"/menu"}  className={`desktop:text-xl font-normal px-6 ${({isActive}) => isActive ? "text-primary" : "text-black"}`}>Menu</NavLink>
                 <NavLink to={"/reservation"}  className={`desktop:text-xl font-normal px-6 ${({isActive}) => isActive ? "text-primary" : "text-black"}`}>Reservations</NavLink>
                 <NavLink to={"/contact"}  className={`desktop:text-xl font-normal px-6 ${({isActive}) => isActive ? "text-primary" : "text-black"}`}>Contact</NavLink>
@@ -31,6 +31,7 @@ function Navbar() {
                     <span className="w-8 h-0.5 bg-black dark:bg-white"></span>
                     <span className="w-8 h-0.5 bg-black dark:bg-white"></span>
                 </button>
+                
 
 
                 {isOpen && 
@@ -46,6 +47,8 @@ function Navbar() {
                         </div>
                     </div>
             </div>)}
+
+            {isOpen && (<div onClick={() => setIsOpen(false)} className="w-full h-200 absolute top-0 left-0 -z-10" />)}
             </div>
         </nav>
     )
