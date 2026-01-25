@@ -8,7 +8,7 @@ import Menu from "./page/Menu.jsx";
 import Contact from "./page/Contact.jsx";
 
 const router = createBrowserRouter([
-  // { path: "/", element: <App /> },
+  { path: "/", element: <App /> },
   { path: "/home", element: <App /> },
   { path: "/menu", element: <Menu /> },
   { path: "/reservation", element: <Reservation /> },
