@@ -14,7 +14,7 @@ function Navbar() {
             </div>
             {/* Nav */}
             <div className="dark:text-white flex items-center max-tablet:hidden">
-                <NavLink to={"/home"} end  className={`${({isActive}) => isActive ? "text-primary" : "text-black"} desktop:text-xl font-normal px-6`}>Home</NavLink>
+                <NavLink to={"/"} className={`${({isActive}) => isActive ? "text-primary" : "text-black"} desktop:text-xl font-normal px-6`}>Home</NavLink>
                 <NavLink to={"/menu"}  className={`desktop:text-xl font-normal px-6 ${({isActive}) => isActive ? "text-primary" : "text-black"}`}>Menu</NavLink>
                 <NavLink to={"/reservation"}  className={`desktop:text-xl font-normal px-6 ${({isActive}) => isActive ? "text-primary" : "text-black"}`}>Reservations</NavLink>
                 <NavLink to={"/contact"}  className={`desktop:text-xl font-normal px-6 ${({isActive}) => isActive ? "text-primary" : "text-black"}`}>Contact</NavLink>
@@ -36,7 +36,7 @@ function Navbar() {
 
                 {isOpen && 
                (<div className="absolute top-13 right-[10%] dark:bg-card-background-dark dark:text-white bg-white text-black shadow-md rounded-lg flex flex-col items-center w-[80%]  py-4 z-20 px-4">
-                    <NavLink to={"/home"} onClick={() => setIsOpen(false)} className="px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 w-full text-center">Home</NavLink>
+                    <NavLink to={"/"} onClick={() => setIsOpen(false)} className="px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 w-full text-center">Home</NavLink>
                     <NavLink to={"/menu"} onClick={() => setIsOpen(false)} className="px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 w-full text-center">Menu</NavLink>
                     <NavLink to={"/reservation"} onClick={() => setIsOpen(false)} className="px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 w-full text-center">Reservations</NavLink>
                     <NavLink to={"/contact"} onClick={() => setIsOpen(false)} className="px-6 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 w-full text-center">Contact</NavLink>
