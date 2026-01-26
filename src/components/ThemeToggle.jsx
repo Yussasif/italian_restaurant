@@ -3,9 +3,9 @@ import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 export default function ThemeToggle() {
   const [isDark, setIsDark] = useState(
-    localStorage.getItem("theme") === "dark" 
-    || 
-    (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+    localStorage.getItem("theme") === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches),
   );
 
   useEffect(() => {
@@ -19,8 +19,8 @@ export default function ThemeToggle() {
   }, [isDark]);
 
   return (
-    <button onClick={() => setIsDark(!isDark)} className="">
-      {isDark ? <MdLightMode size={30} /> : <MdDarkMode  size={30}/>}
-    </button>
+    <div onClick={() => setIsDark(!isDark)} className="">
+      {isDark ? <MdLightMode size={30} /> : <MdDarkMode size={30} />}
+    </div>
   );
 }

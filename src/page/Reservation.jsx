@@ -1,10 +1,15 @@
+import Footer from "../components/Footer.jsx";
 import Navbar from "../components/Navbar.jsx";
+import ReservationForm from "../components/ReservationForm.jsx";
 function Reservation() {
-    return (
-        <div className="p-4"  >
-            <Navbar />
-        </div>
-    )
+  return (
+    <>
+      <Navbar />
+      <ReservationForm />
+
+      <Footer />
+    </>
+  );
 }
 
-export default Reservation
+export default Reservation;

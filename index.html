@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="dark bg-white dark:bg-background-dark flex justify-center">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -7,16 +7,19 @@
     <title>Luce di Grano</title>
 
     <script>
-  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    document.documentElement.classList.add('dark')
-  } else {
-    document.documentElement.classList.remove('dark')
-  }
-</script>
-
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
   </head>
-  <body class='max-w-500'>
-    <div class=''>
+  <body class="max-w-500 mx-auto bg-gray-100 dark:bg-background-dark">
+    <div class="">
       <div id="root"></div>
       <script type="module" src="/src/main.jsx"></script>
     </div>
