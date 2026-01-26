@@ -4,7 +4,7 @@ function ReservationForm() {
   const playClick = useSound(clicksfx, 0.5);
 
   return (
-    <section className="w-full p-4 bg-white dark:bg-card-background-dark rounded-md shadow-md dark:shadow-gray-600 inset-shadow-sm mx-4 mt-30 mb-10 tablet:w-[60%] tablet:mx-auto">
+    <section className="p-4 bg-white dark:bg-card-background-dark rounded-md shadow-md dark:shadow-gray-600 inset-shadow-sm mx-4 mt-30 mb-10 tablet:w-[60%] tablet:mx-auto">
       <div className="flex flex-col gap-4 justify-center items-center my-10 tablet:items-start">
         <h1 className="text-3xl font-bold text-primary">Make a Reservation</h1>
         <p className="text-center text-gray-500">
@@ -21,7 +21,7 @@ function ReservationForm() {
             id="date"
             name="date"
             placeholder="YYYY-MM-DD"
-            className="p-2 dark:border-gray-600 rounded-md border-2 border-gray-300 focus:outline-secondary bg-gray-100 dark:bg-background-dark"
+            className="p-2 dark:border-gray-600 rounded-md border-2 border-gray-300 focus:outline-secondary bg-gray-100 dark:bg-background-dark w-full"
           />
         </div>
         <div className="flex flex-col gap-3 mb-3">
@@ -101,7 +101,7 @@ function ReservationForm() {
             playClick();
           }}
           type="submit"
-          className="font-semibold text-white text-lg  p-3 mt-4 bg-secondary rounded-md hover:border-2 hover:border-secondary hover:text-secondary hover:bg-transparent tablet:w-[60%] tablet:mt-15 tablet:mb-10"
+          className="font-semibold text-white text-lg  p-3 mt-4 bg-secondary rounded-md hover:border-2 hover:border-secondary hover:text-secondary hover:bg-transparent tablet:w-[60%] tablet:mt-15 tablet:mb-10 w-full"
         >
           Confirm Reservation
         </button>
